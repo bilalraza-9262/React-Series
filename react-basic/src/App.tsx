@@ -1,4 +1,5 @@
 import './App.css'
+import Button from './component/Button'
 
 function App() {
 
@@ -17,6 +18,9 @@ function App() {
     <div>
       <h1>Welcome to my Website</h1>
       <p>This is a react website</p>
+      <Button text="save"/>
+      <Button text="save"/>
+      <Button text="unSave"/>
     </div>
   )
 }

@@ -1,4 +1,4 @@
-.container{
-	background-color: black;
-	color: aliceblue;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
