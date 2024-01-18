@@ -1,7 +1,10 @@
 import './App.css'
-import Button from './component/Button'
+// import Button from './component/Button'
+import Button from "./component/Button"
 
 function App() {
+  const myArr = [1, 2];
+  console.log(myArr[0]);
 
 
   return (
@@ -15,14 +18,19 @@ function App() {
     //   <div></div>
 
     // ]
-    <div>
-      <h1>Welcome to my Website</h1>
+    <div className='flex flex-col items-center'>
+      
+      <h1 className=''>Welcome to my Website</h1>
       <p>This is a react website</p>
-      <Button text="save"/>
-      <Button text="save"/>
-      <Button text="unSave"/>
+      {/* <Button text="save"/> */}
+      {/* <Button text="save"/> */}
+      <Button text="delete"/>
+      {/* <Button/>
+      <Button/> */}
+  
     </div>
   )
+
 }
 
 export default App
